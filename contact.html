@@ -2,14 +2,40 @@
 <html>
     <head>
 
+        <title>Contact</title>
+
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
     </head>
     <body>
-       
-       <h1>Adrian Moravec</h1>
 
-            <h3>Contact</h3>    
+        <nav>
+
+            <div class="title"><h1>Adrian Moravec</h1></div>
+            
+            <ul>
+                <li><a class="navlink" href="#contact">Contact</a></li>
+                <li><a>|</a></li>
+                <li><a class="navlink" href="#portfolio">Portfolio</a></li>    
+                <li><a>|</a></li>
+                <li><a class="navlink" href="#about">About</a></li>
+            </ul>
+
+            <div class="whiteheader">
+            
+            </div>
+                
+        </nav>
+
+        <div class="border">
+
+        </div>
+
+        <div class="main">
+
+            <h3>Contact</h3>  
+            
+            <hr>
 
             <form action="/action_page.php">
                 Name<br>
@@ -19,10 +45,18 @@
                 <input type="text" name="Email" value="example@gmail.com">
                 <br>
                 Message<br>
-                <input type="text" name="Message">
-                <br><br>
+                <input type="text" id="message" name="Message">
+                <br>
                 <input type="submit" value="Submit">
             </form> 
+
+        </div>
+
+        <footer>
+                
+            <p id="copyright">Copyright © Adrian Moravec. All rights reserved.</p>
+        
+        </footer>
 
     </body>
 </html>

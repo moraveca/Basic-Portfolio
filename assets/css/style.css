@@ -1,30 +1,163 @@
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
     text-align: justify;
+    background-image: url(../images/nordwood.jpg);
+      }
+           
+h1, h2, h3, h4 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-h2 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
+nav {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 86.813px;
+    }
+    
+li {
+    float: right;
+    display: block;
+    color: #cccccc;
+    text-align: center;
+    padding: 20.405px 2px;
+    text-decoration: none;
+}
+
+li a {
+    display: block;
+    color: #cccccc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a.navlink:hover {
+    background-color: #4aaaa5;
+}
+
+div.title {
+    float: left;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding: 10px;
+}
+
+h2, h3 {
     color: #4aaaa5;
 }
 
 img {
-    height: 120px;
+    height: 170px;
     float: left;
-    margin: 0 10px 10px 0;
+    margin: 8.83px 10px 10px 0;
+}
 
+div.whiteheader {
+    height: 94.813px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+div.border {
+    background-color: #dddddd;
+    height: 2px;
 }
 
 hr {
     background-color: #dddddd;
     height: 2px;
     border: 0;
+    margin-bottom: 10px;
 }
 
-div {
+.main {
     border-style: solid;
     border-width: 1px;
     border-color: #dddddd;
-    padding: 10px;
-    width: 938px;
+    padding: 10px 30px;
+    width: 898px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    
+}
+
+.portfolioImage {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+
+.firstline {
+    margin-top: 0;
+}
+
+footer {
+    position: absolute;
+    background-color: #666666;
+    color: #cccccc;
+    width: 100%;
+    height: 86.813px;
+    text-align: center;
+    font-size: small; 
+    bottom: 0;
+    border-top: 8px solid;
+    border-color: #4aaaa5;
+}
+
+p#copyright {
+    position: relative;
+    top: 50%;
+    right: auto;
+    left: auto;
+}
+
+input {
+    width: 100%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 8px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: #cccccc;
+}
+
+input#message {
+    height: 150px;
+}
+
+input[type=submit] {
+    position: relative;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 50px;
+    padding: 8px;
+    text-align: center;
 }
