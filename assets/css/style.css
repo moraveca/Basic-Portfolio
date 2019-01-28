@@ -96,35 +96,19 @@ hr {
     margin-left: auto;
     margin-right: auto;
     background-color: white;
-    
-}
-
-.portfolioImage {
-    width: 80%;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 25px;
-  }
-  
-.container {
-    text-align: center;
-    padding: 10px 20px;
-  }
-
-
-.firstline {
-    margin-top: 0;
+    overflow: hidden;
 }
 
 footer {
-    position: absolute;
+    position: sticky;
     background-color: #666666;
     color: #cccccc;
-    width: 100%;
+    width: 105%;
     height: 86.813px;
     text-align: center;
     font-size: small; 
     bottom: 0;
+    left: -10;
     border-top: 8px solid;
     border-color: #4aaaa5;
 }
@@ -161,3 +145,23 @@ input[type=submit] {
     padding: 8px;
     text-align: center;
 }
+
+.card {
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+  }
+
+.container {
+    text-align: center;
+    padding: 2px 16px;
+    background-color: #4aaaa5;
+  }
+
+  h4 {
+      color: #ffffff;
+  }
+
+  img.imageCard {
+      margin: 0;
+  }
