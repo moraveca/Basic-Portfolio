@@ -5,7 +5,6 @@ html {
     -o-background-size: cover;
     background-size: cover;
     height: 100%;
-    margin: 0;
 }
 
 body {
@@ -13,11 +12,14 @@ body {
     color: #777777;
     text-align: justify;
     height: 100%;
-    margin: 0;
-      }
+}
            
 h1, h2, h3, h4 {
     font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.content {
+    min-height: 100%;
 }
 
 nav {
@@ -34,7 +36,7 @@ ul {
     padding: 0;
     overflow: hidden;
     height: 86.813px;
-    }
+}
     
 li {
     float: right;
@@ -77,7 +79,7 @@ img {
 
 div.whiteheader {
     height: 94.813px;
-    width: 100%;
+    width: 100vw;
     background-color: white;
     position: absolute;
     left: 0px;
@@ -88,6 +90,7 @@ div.whiteheader {
 div.border {
     background-color: #dddddd;
     height: 2px;
+    width: 100vw;
 }
 
 hr {
@@ -103,28 +106,29 @@ hr {
     border-color: #dddddd;
     padding: 10px 30px;
     width: 898px;
+    margin: 60px auto auto;
     background-color: white;
-    overflow: hidden;
-    margin: 50px auto;
+    overflow: auto;
+}
+
+#bigbox {
+    margin: 60px auto 100px;
 }
 
 footer {
-    position: sticky;
+    position: relative;
     background-color: #666666;
     color: #cccccc;
-    width: 105%;
-    height: 50px;
+    width: 100vw;
+    height: 86.813px;
+    margin-top: -86.813px;
     text-align: center;
     font-size: small; 
     bottom: 0;
     border-top: 8px solid;
     border-color: #4aaaa5;
-    padding: 10px;
+    clear: both;
 }
-
-.push {
-    height: 200px;
-  }
 
 p#copyright {
     position: relative;
@@ -163,19 +167,19 @@ input[type=submit] {
     width: 33.33%;
     float: left;
     padding: 10px;
-  }
+}
 
 .container {
     text-align: center;
     padding: 2px 16px;
     background-color: #4aaaa5;
-  }
+}
 
   h4 {
       color: #ffffff;
       padding-top: 62%;
-  }
+}
 
   img.imageCard {
       margin: 0;
-  }
+}
